@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="128pt" height="128pt" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(1.4841 0 0 1.4841 -7.4203 -7.4203)" fill="#fff">
+  <path transform="matrix(.84858 0 0 .96716 13.211 9.7503)" d="m58.084 15.029c-24.644 0-44.816 17.602-44.816 39.512 0 21.91 20.172 39.514 44.816 39.514 24.644 0 44.816-17.604 44.816-39.514 0-21.91-20.172-39.512-44.816-39.512zm0 2.7598c23.335 1e-6 42.057 16.541 42.057 36.752 0 20.211-18.722 36.754-42.057 36.754-23.335 0-42.057-16.543-42.057-36.754 0-20.211 18.722-36.752 42.057-36.752z" color="#000000" stroke-linecap="square" style="-inkscape-stroke:none"/>
+  <g fill-rule="evenodd">
+   <path d="m42.5 43.75v37.5h2.5v-37.5z" color="#000000" style="-inkscape-stroke:none"/>
+   <path d="m6.25 61.25a1.25 1.25 0 0 0-1.25 1.25 1.25 1.25 0 0 0 1.25 1.25h37.5a1.25 1.25 0 0 0 1.25-1.25 1.25 1.25 0 0 0-1.25-1.25z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+   <path d="m75 5a1.25 1.25 0 0 0-1.25 1.25v24.398l-30.781 24.625a1.25 1.25 0 0 0-0.19531 1.7578 1.25 1.25 0 0 0 1.7578 0.19531l31.25-25a1.2501 1.2501 0 0 0 0.46875-0.97656v-25a1.25 1.25 0 0 0-1.25-1.25z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+  </g>
+  <path d="m43.75 68.75 31.25 25" color="#000000" fill-opacity=".75" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4983" style="-inkscape-stroke:none"/>
+  <path d="m44.531 67.775a1.2491 1.2491 0 0 0-1.7559 0.19336 1.2491 1.2491 0 0 0 0.19336 1.7559l31.25 25a1.2491 1.2491 0 0 0 1.7559-0.19336 1.2491 1.2491 0 0 0-0.19336-1.7559l-15.625-12.5z" color="#000000" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+  <path d="m58.8 73.046 9.0265 14.934-16.551-5.5282c4.2643-1.142 7.2915-4.9501 7.5243-9.4054z" fill="#fff" fill-rule="evenodd" stroke-linejoin="round" stroke-width=".93685"/>
+  <path d="m75 92.5a1.25 1.25 0 0 0-1.25 1.25v25a1.25 1.25 0 0 0 1.25 1.25 1.25 1.25 0 0 0 1.25-1.25v-25a1.25 1.25 0 0 0-1.25-1.25z" color="#000000" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ </g>
+</svg>

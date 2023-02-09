@@ -1,0 +1,4 @@
+https://www.techtarget.com/whatis/definition/transistor
+https://www.arrow.com/en/research-and-events/articles/npn-vs-pnp-in-circuit-design-and-industrial-controls
+https://upload.wikimedia.org/wikipedia/commons/3/37/Transistor.symbol.npn.svg
+https://commons.wikimedia.org/wiki/File:XOR_ANSI.svg
