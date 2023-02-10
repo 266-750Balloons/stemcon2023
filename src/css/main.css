@@ -50,7 +50,9 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
-
+.wideimage {
+    width: 100%;
+}
 @keyframes initialFade {
     0% {
         opacity: 0%;

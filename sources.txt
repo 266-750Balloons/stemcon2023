@@ -2,3 +2,7 @@ https://www.techtarget.com/whatis/definition/transistor
 https://www.arrow.com/en/research-and-events/articles/npn-vs-pnp-in-circuit-design-and-industrial-controls
 https://upload.wikimedia.org/wikipedia/commons/3/37/Transistor.symbol.npn.svg
 https://commons.wikimedia.org/wiki/File:XOR_ANSI.svg
+https://www.pbs.org/transistor/album1/
+https://electronics.stackexchange.com/questions/501156/when-does-a-transistor-act-as-a-switch-and-when-as-an-amplifier
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjp_MGd44j9AhVdO0QIHSPQD3YQFnoECCAQAw&url=https%3A%2F%2Fwww.vedantu.com%2Fquestion-answer%2Fnpn-transistors-are-preferred-to-pnp-transistors-class-12-physics-cbse-6095904fff93fa35fbcdf0b4&usg=AOvVaw2Xm0Hp2mSoMrIHMRw6BGhu
+https://commons.wikimedia.org/wiki/File:Transistorer_(cropped).jpg
