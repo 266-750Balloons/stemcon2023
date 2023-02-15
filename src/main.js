@@ -139,7 +139,9 @@ function appendCommon() {
     fetch("/src/html/common.html")
     .then(res => res.text())
     .then(text => {
-            document.body.innerHTML = text + document.body.innerHTML;
+            var newBits = document.createElement("div");
+            newBits.innerHTML = text;
+            document.body.appendChild(newBits);
         }
     )
-}
+    }

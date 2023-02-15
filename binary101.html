@@ -1,6 +1,73 @@
 <!DOCTYPE html>
-<p>Under construction</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/MITS_Altair_8800_Front_Panel.jpg/799px-MITS_Altair_8800_Front_Panel.jpg?20160129005635" class="wideimage">
+<p>Okay, so with that, we have a computer, and we might even understand somewhat where binary comes from, but what does it really do in a computer? Well, fundamentally, binary is a sort of abstraction of electrical signals. What those signals do inside the circuit is really, of the most part, knowledge distributed among many well-paid engineers with college degrees. Even an absolute genius cannot completely understadd how the computer chips in our hands really work, but a representation of on-and-off electrical signals that represent data and instructions is really good enough for most purposes.</p>
+<p>Now, what about that weird mass of lights and and switches above? A convient-looking prop from an old science fiction film. Nope. That is, in fact, the front panel of the Altair 8800, really one of the first computers someone could fit on a desk. It came as a kit for hobbyists to assemble. One way of programming it was, in fact, putting in the code, instruction-by-instruction, by flipping the switches. Granted, that was not how most people did it; in fact, one of Microsoft's products was the BASIC programming language/operating system for this thing.</p>
+<p>Still, it's interesting (note that I say interesting, not necessarily fun) to imagine programming in binary. Hopefully, however, I can give some insight into how it works and make it fun.</p>
+<h3>The Guts of a CPU</h3>
+<p>The CPU is commonly referred to as the brains of the computer. It's the mash of transistors does does most of the computing. Generally, most CPUs going back well into the 1970s have these parts, made up of complex combinations of logic gates:</p>
+<table>
+    <tr>
+        <td>Registers</td>
+        <td>This is the place a CPU stores little, very tiny bits (aka numbers) of information to process them.</td>
+    </tr>
+    <tr>
+        <td>The Accumulator</td>
+        <td>You add stuff up in here from the registers.</td>
+    </tr>
+    <tr>
+        <td>Counter</td>
+        <td>This is the computer "counting" what instruction it is on.</td>
+    </tr>
+    <tr>
+        <td>Memory</td>
+        <td>You've probably heard of this. It's not strictly the CPU, but usually connected to the CPU. There's also often some very fast memory inside the CPU, but we can forget about it for this exercise.</td>
+    </tr>
+</table>
+<h3>Coding</h3>
+<p>Here, you can play with a fictionalized, simplified virtual "computer", seeing what binary potentially looked look (not an actual CPU, but similar. You can set registers and add to the accumlator. Make sure your numbers are between 0 and 255.</p>
+<table style="width: 100%;">
+    <tr>
+        <td><div id="code" style="width: 100%; border-style: solid; min-height: 300px; max-height: 300px; overflow: scroll; display: block; font-family: monospace;"></div></td>
+        <td style="width: 50%"><div id="comment" style="width: 100%; border-style: solid; min-height: 300px; max-height: 300px; overflow: scroll; overflow-x: scroll; white-space: nowrap; display: block; font-family: monospace;"></div></td>
+</tr>
+</table><br>
+<p>Use these buttons to add binary codes to the box.</p>
+<button class="setReg">Set Register A to</button>
+<button class="setReg">Set Register B to</button>
+<button class="setReg">Set Register C to</button>
+<button class="setReg">Set Register D to</button>
+<input type="number" id="blockValue" value="0" min="0" max="255"><br>
 
+<br>
+<button class="addAccu">Add Register A to Accumulator</button>
+<button class="addAccu">Add Register B to Accumulator</button>
+<button class="addAccu">Add Register C to Accumulator</button>
+<button class="addAccu">Add Register D to Accumulator</button><br>
+<button id="halt">Halt</button>
+<p>This will run the code.</p>
+<button id="run">Run</button>
+<p>This will clear all the code to allow you to write a new program.</p>
+<button id="clear">Clear</button>
+<table>
+    <thead>
+        <th>Register A</th>
+        <th>Register B</th>
+        <th>Register C</th>
+        <th>Register D</th>
+        <th>Accumulator</th>
+    </thead>
+    <tr>
+        <td id="regA"></td>
+        <td id="regB"></td>
+        <td id="regC"></td>
+        <td id="regD"></td>
+        <td id="accu"></td>
+    </tr>
+</table>
 
+<h3>Limitations</h3>
+<p>As you can see, the above might make some interesting stimuli, but it can't do much. That's because for this demonstration, I chose to keep it simple. This means you can't implement a real program in it, only perform a few common operations that are similar to what a CPU does. The truth is I think it might get too complex for non-programmers if I add anything more.</p>
+<p>The moral of the story is get into programming. Honestly, most programmers don't even need to understand this stuff in their dayjob, but I felt it would be nice to try to demistify the inner workings of a computer for people.</p>
 <style>body{display: none;}</style>
 <script src="/src/main.js"></script>
+<script src="/binary101/main.js"></script>

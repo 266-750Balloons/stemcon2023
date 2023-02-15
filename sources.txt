@@ -6,3 +6,5 @@ https://www.pbs.org/transistor/album1/
 https://electronics.stackexchange.com/questions/501156/when-does-a-transistor-act-as-a-switch-and-when-as-an-amplifier
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjp_MGd44j9AhVdO0QIHSPQD3YQFnoECCAQAw&url=https%3A%2F%2Fwww.vedantu.com%2Fquestion-answer%2Fnpn-transistors-are-preferred-to-pnp-transistors-class-12-physics-cbse-6095904fff93fa35fbcdf0b4&usg=AOvVaw2Xm0Hp2mSoMrIHMRw6BGhu
 https://commons.wikimedia.org/wiki/File:Transistorer_(cropped).jpg
+https://www.geeksforgeeks.org/realization-of-logic-gate-using-universal-gates/
+https://commons.wikimedia.org/wiki/File:MITS_Altair_8800_Front_Panel.jpg

@@ -1,6 +1,45 @@
 <!DOCTYPE html>
-<p>Under construction</p>
-
-
+<p>As said before, transistors can be turned into a cool thing called logic gates, which make up computers. But what are logic gates?</p>
+<p>I'll use an anology. Imagine you are asked two yes-or-no questions. You are then asked a yes-or-no question based on that question. You are basically a logic gate, except instead, the two yes or no questions are whether or not each wire is off or on, and your answer to the question is if you are off or on rather than yes or no.</p>
+<p>Of course, you don't change the question of the logic gates. Logic gates are a relatively simply circuit, built to answer one question. Here are the main questions below:</p>
+<table>
+    <thead>
+        <th>Logic Gate Type</th>
+        <th>Question</th>
+    </thead>
+    <tr>
+        <td>AND</td>
+        <td>Are both answers yes?</td>
+    </tr>
+    <tr>
+        <td>OR</td>
+        <td>Was at least one answer yes?</td>
+    </tr>
+    <tr>
+        <td>XOR</td>
+        <td>Was one answe yes and one answer no?</td>
+    </tr>
+</table>
+<p>There's three other logic gates, but they are really just asking the exact opposite question for each of the ones above.</p>
+<table>
+    <thead>
+        <th>Logic Gate Type</th>
+        <th>Question</th>
+    </thead>
+    <tr>
+        <td>NAND</td>
+        <td>Was at least one answer no?</td>
+    </tr>
+    <tr>
+        <td>NOR</td>
+        <td>Are both answers no?</td>
+    </tr>
+    <tr>
+        <td>Exlusive NOR</td>
+        <td>Were both answers yes or both answers no?</td>
+    </tr>
+</table>
+(Based off <a href="https://www.geeksforgeeks.org/realization-of-logic-gate-using-universal-gates/">GeeksForGeeks article</a>)
+<p>As circuit components made of transistors, we can just make a bunch of tiny ones of these and chain them together to make the chips that make a modern computer. Entire complex computers, in our hands, made out of millions or even billions or trillions of these simple components.</p>
 <style>body{display: none;}</style>
 <script src="/src/main.js"></script>
