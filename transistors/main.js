@@ -1,12 +1,3 @@
 var transistorsims = document.getElementsByClassName('transistorsim');
-if(!(window.matchMedia('(min-resolution: 2dppx)'))) {
-    var mobile = false;
-} else {
-    var mobile = true;
-}
+var simContext = transistorsims[0].getContext("2d");
 
-function setTransistorSimCanvasSize() {
-    if(mobile == false) {
-        console.log("return here");
-    }
-}

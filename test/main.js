@@ -1,6 +1,20 @@
-class electronicsSimulator {
+class node {
     constructor() {
-        this.exists = 1;
+        
+    }
+}
+class component {
+    constructor() {
+        this.nodes = [];
+    }
+}
+class electronicsSimulator {
+    constructor(json="") {
+        this.components = [];
+        if(json !== "") {
+            let parsedJSON = json.parse(json);
+
+        }
     }
 }
 
@@ -12,22 +26,4 @@ if(!(window.matchMedia('(min-resolution: 2dppx)'))) {
 
 var transistorCanvases = document.getElementsByClassName("electronicsSim");
 
-var args = {
-    context: new electronicsSimulator(),
-    sim: transistorCanvases[0].getContext("2d")
-}
-window.requestAnimationFrame(function(){renderSim(args)});
-
-function renderSim(args) {
-    if(args.context.fillStyle = "white") {
-        args.context.fillStyle = "black";
-    } else {
-        args.context.fillStyle = "white";
-    }
-
-    if(args.sim.exists === 1) {
-        args.context.fillRect(0, 0, 1000, 1000);
-    }
-    
-    window.requestAnimationFrame(function(){renderSim(args)});
-}
+var context = transistorCanvases[0].getContext("2d");
