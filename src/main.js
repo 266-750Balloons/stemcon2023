@@ -129,14 +129,14 @@ function setupHeader(lang="en") {
     // Link main.css and append it to the document head.
     let stylesheet = document.createElement("link");
     stylesheet.rel = "stylesheet";
-    stylesheet.href = "/src/css/main.css";
+    stylesheet.href = "src/css/main.css";
     document.head.appendChild(stylesheet);
     document.body.style.display = "inherit";
 }
 
 //Append the common html code for all pages
 function appendCommon() {
-    fetch("/src/html/common.html")
+    fetch("src/html/common.html")
     .then(res => res.text())
     .then(text => {
             var newBits = document.createElement("div");
